@@ -3,7 +3,7 @@ body {
 }
 
 .nav-bar{
-    background-color: rgba(161,32,3);
+    background-color: rgba(0,0,0);
     height: 80px;
     width: 100%;
     color: #fff;
@@ -18,14 +18,12 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 30%;
-    
 }
 
 .nav-list {
     float: right;
     margin-right: 30px;
     margin-top: 50px;
-    /* border: solid black 3px; */
 }
 
 .nav-list a {
@@ -34,20 +32,18 @@ body {
 
 .nav-list a:hover {
     text-decoration: underline;
-    color: white;
+    color: rgb(255,255,255);
 }
 
 .list-item {
     display: inline;
     padding-right: 30px;
-    color: white;
-    /* border: 1px solid whitesmoke; */
+    color: rgb(255,255,255);
     text-align: center;
 }
 
 .list-item:hover {
-    background-color: black;
-    color: white;
+    color: rgb(255,255,255);
     
 }
 
@@ -57,55 +53,25 @@ body {
     background-image: url(../img/gibson-head-stock.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 50px;
-    /* padding-top: 20px; */
+    margin-top: 60px;
+    padding-top: 20px;
 }
 
-.main-box {
-    height: 200px;
-    width: 300px;
-    position: absolute;
-    top: 500px;
-    left: 600px;
-    /* background-color: blue;
-    border: 3px solid yellow; */
-
-}
 
 .main-text {
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
+    font-family: cursive;
     font-weight: bold;
+    text-align: center;
+    padding-top: 3px;
+    top: 130px;
 }
 
 .section {
+    background-color: rgba(0,0,0,.6);
     width: 100%;
     height: 600px;
-    margin-top: 20px;
-    /* position: relative; */
+    position: relative;
 }
-
-/* .section-img {
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    height: 550px;
-    width: 50%;
-}
-
-.section-p {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    height: 550px;
-    width: 50%;
-} */
-
-/* .guitar-img, .section-p p {
-    height: 500px;
-    width: 500px; */
-/* } */
 
 .section-img, .section-p {
     height: 550px;
@@ -117,7 +83,7 @@ body {
 }
 
 .guitar-img {
-    height: 520px;
+    height: 510px;
     width: 94%;
     padding: 20px;
 }
@@ -126,7 +92,7 @@ body {
 }
 
 .footer {
-    background-color:rgba(161,32,3);
+    background-color:rgba(0,0,0);
     height: 70px;
     width: 100%;
 }
@@ -161,7 +127,7 @@ body {
 
 .fab {
     font-size: 2em;
-    color: white;
+    color: rgb(255,255,255);
 }
 
 .footer-input {
@@ -176,6 +142,21 @@ body {
 
 /******************About Styles**************/
 
+.container {
+    height: 700px;
+    width: 100%;
+    padding-top: 250px;
+    background-color: rgba(0,0,0,.6);
+}
+
+.container-box {
+    height: 650px;
+    width: 30%;
+    border: 3px solid rgba(161,32,3);
+    float: left;
+    margin-left: 30px;
+}
+
 .about-header {
     background-color: rgba(161,32,3);
     border: 3px solid black;
@@ -183,8 +164,8 @@ body {
     width: 300px;
     position: absolute;
     top: 130px;
-    left: 44%;
-    border-radius: 30%;
+    left: 40%;
+    border-radius: 50%;
     
 }
 
@@ -195,20 +176,6 @@ body {
     padding-top: 3px;
     top: 130px;
     
-}
-
-.container {
-    height: 700px;
-    width: 100%;
-    margin-top: 250px;
-}
-
-.container-box {
-    height: 650px;
-    width: 30%;
-    border: 3px solid rgba(161,32,3);
-    float: left;
-    margin-left: 30px;
 }
 
 .container-box img {
@@ -224,7 +191,6 @@ body {
 .container-box img, .container-box audio, .container-box iframe {
     display: block;
     margin: auto;
-    /* margin-top: 20px; */
 }
 
 .container-box p {
@@ -235,29 +201,30 @@ body {
 /******************Contact Styles**************/
 
 .contact-section {
-    height: 700px;
+    height: 750px;
     width: 100%;
-    background-color: rgba(161,32,3,.5);
-    margin-top: 50px;
+    background-color: rgba(0,0,0,.6);
+    margin-top: 80px;
 }
 
 .contact-box {
     height: 550px;
-    width: 45%;
-    border: 3px solid black;
+    width: 44%;
+    border: 3px solid rgba(161,32,3);
     float: left;
-    margin-left: 55px;
-    margin-top: 30px;
+    margin-left: 50px;
+    margin-top: 175px;
 } 
 
 .contact-header {
     background-color: rgba(161,32,3);
     border: 3px solid black;
-    height: 60px;
+    height: 75px;
     width: 300px;
     position: absolute;
     top: 130px;
-    left: 100%;
+    left: 40%;
+    border-radius: 50%;
 }
 
 .contact-header h2 {
@@ -265,11 +232,15 @@ body {
     font-weight: bold;
     text-align: center;
     padding-top: 3px;
+    
 }
 
 .map {
     text-align: center;
+    margin-top: 175px;
 }
 
-
-
+.form {
+    text-align: center;
+    margin-top: 175px;
+}
